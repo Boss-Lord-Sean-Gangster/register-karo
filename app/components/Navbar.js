@@ -40,7 +40,7 @@ export default function Navbar() {
 
         {/* Links */}
         <div
-          className={`lg:flex ${isMenuOpen ? 'flex-col items-center absolute top-16 left-0 right-0 bg-blue-600 p-4' : 'hidden'}`}
+          className={`lg:flex lg:flex-row ${isMenuOpen ? 'flex flex-col items-center absolute top-16 left-0 right-0 bg-blue-600 p-4' : 'hidden'}`}
         >
           <Link href="/services" className="hover:text-gray-200 py-2">
             Services

@@ -18,7 +18,7 @@ export default function Navbar() {
         </Link>
 
         {/* Hamburger Icon for mobile */}
-        <div className="lg:hidden flex items-center">
+        <div className="lg:hidden flex flex-col gap-4 items-center">
           <button onClick={toggleMenu} className="text-2xl">
             {/* Hamburger Icon */}
             <svg
